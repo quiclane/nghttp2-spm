@@ -1,0 +1,2 @@
+repo=https://github.com/nghttp2/nghttp2.git
+branch=master
