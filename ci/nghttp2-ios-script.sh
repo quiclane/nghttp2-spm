@@ -12,6 +12,10 @@ SDK_SIM="$(xcrun --sdk iphonesimulator --show-sdk-path)"
 rm -rf "$UPROOT" "$OUT"
 mkdir -p "$UPROOT" "$OUT"
 git clone --depth 1 --branch "$BRANCH" "$REPO" "$UPDIR"
+echo "==top CMakeLists key lines=="
+sed -n '1,260p' "$UPDIR/CMakeLists.txt" | nl -ba | egrep -n 'ENABLE_|STATIC|SHARED|BUILD_SHARED|nghttp2_static|add_library\(' || true
+echo "==lib/CMakeLists around alias=="
+sed -n '90,170p' "$UPDIR/lib/CMakeLists.txt" | nl -ba || true
 build_one(){ name="$1"; sysroot="$2"; archs="$3"; bdir="$OUT/$name"; cmake -S "$UPDIR" -B "$bdir" -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_SYSTEM_NAME=iOS -DCMAKE_OSX_SYSROOT="$sysroot" -DCMAKE_OSX_ARCHITECTURES="$archs" -DCMAKE_POSITION_INDEPENDENT_CODE=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DENABLE_STATIC_LIB=ON -DENABLE_SHARED_LIB=OFF -DENABLE_APP=OFF -DENABLE_HPACK_TOOLS=OFF -DENABLE_EXAMPLES=OFF -DENABLE_PYTHON_BINDINGS=OFF -DENABLE_HTTP3=OFF -DENABLE_BROTLI=OFF -DENABLE_ZLIB=OFF -DENABLE_JEMALLOC=OFF -DENABLE_LIBEV=OFF -DENABLE_SYSTEMD=OFF -DENABLE_MRUBY=OFF -DENABLE_NEVERBLEED=OFF; ninja -C "$bdir"; }
 build_one ios_arm64 "$SDK_IOS" arm64
 build_one ios_sim "$SDK_SIM" "arm64;x86_64"
