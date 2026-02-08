@@ -12,14 +12,12 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Install deps
         run: |
           set -euo pipefail
           sudo softwareupdate --install-rosetta --agree-to-license || true
           brew update
           brew install cmake ninja unzip gh || true
-
       - name: Gate
         id: gate
         run: |
@@ -47,20 +45,19 @@ jobs:
           echo "head=$head" >> "$GITHUB_OUTPUT"
           echo "now=$now" >> "$GITHUB_OUTPUT"
           echo "should=$should" >> "$GITHUB_OUTPUT"
-
       - name: Build
         if: steps.gate.outputs.should == '1'
         run: |
           set -euo pipefail
           chmod +x ci/nghttp2-ios-script.sh
           ./ci/nghttp2-ios-script.sh
-
       - name: Verify output
         if: steps.gate.outputs.should == '1'
         run: |
           set -euo pipefail
           test -f build-out/NGHTTP2.xcframework.zip
-
+          test -d build-out/NGHTTP2.xcframework
+          test -f build-out/NGHTTP2.xcframework/ios-arm64/libnghttp2.a
       - name: Checksum
         if: steps.gate.outputs.should == '1'
         id: sum
@@ -69,16 +66,34 @@ jobs:
           cs="$(swift package compute-checksum build-out/NGHTTP2.xcframework.zip)"
           echo "checksum=$cs" >> "$GITHUB_OUTPUT"
           printf "upstream=%s\nchecksum=%s\n" "${{ steps.gate.outputs.head }}" "$cs" > /tmp/release.txt
-
-      - name: Add build artifacts to repo
+      - name: Sync repo-root artifacts
         if: steps.gate.outputs.should == '1'
         run: |
           set -euo pipefail
-          # Make sure the correct files are added to the repo
-          git add build-out/NGHTTP2.xcframework/
-          git commit -m "Add NGHTTP2.xcframework and build artifacts"
+          rm -rf NGHTTP2.xcframework NGHTTP2.xcframework.zip libnghttp2.a
+          cp -R build-out/NGHTTP2.xcframework ./NGHTTP2.xcframework
+          cp build-out/NGHTTP2.xcframework.zip ./NGHTTP2.xcframework.zip
+          cp build-out/NGHTTP2.xcframework/ios-arm64/libnghttp2.a ./libnghttp2.a
+      - name: Commit artifacts
+        if: steps.gate.outputs.should == '1'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add NGHTTP2.xcframework NGHTTP2.xcframework.zip libnghttp2.a
+          git commit -m "repo: refresh NGHTTP2 artifacts" || true
           git push origin main
-
+      - name: Tag immutable semver
+        if: steps.gate.outputs.should == '1'
+        run: |
+          set -euo pipefail
+          git fetch origin --tags
+          last="$(git tag -l '1.0.*' | awk -F. 'NF==3 && $1==1 && $2==0 {print $3}' | sort -n | tail -n1)"
+          [ -n "${last:-}" ] || last=1
+          next="$((last+1))"
+          ver="1.0.$next"
+          git tag "$ver" "$(git rev-parse HEAD)"
+          git push origin "$ver"
       - name: Publish release
         if: steps.gate.outputs.should == '1'
         env:
@@ -88,7 +103,6 @@ jobs:
           short="$(echo "${{ steps.gate.outputs.head }}" | cut -c1-12)"
           tag="ios-$(date +%Y%m%d)-$short"
           gh release create "$tag" build-out/NGHTTP2.xcframework.zip --title "$tag" --notes-file /tmp/release.txt
-
       - name: Prune releases
         if: steps.gate.outputs.should == '1'
         env:
@@ -104,7 +118,6 @@ jobs:
             [ "$n" -le "$keep" ] && continue
             gh api -X DELETE -H "Accept: application/vnd.github+json" "/repos/$repo/releases/$id" >/dev/null
           done
-
       - name: Commit state
         if: steps.gate.outputs.should == '1'
         run: |
