@@ -23,6 +23,12 @@ LIB_IOS="$(find "$OUT/ios_arm64" -name 'libnghttp2.a' -print -quit)"
 LIB_SIM="$(find "$OUT/ios_sim" -name 'libnghttp2.a' -print -quit)"
 HDR_ROOT="$OUT/headers"
 rm -rf "$HDR_ROOT"
+mkdir -p "$HDR_ROOT"
+cp -R "$UPDIR/lib/includes/" "$HDR_ROOT/"
+mkdir -p "$HDR_ROOT/nghttp2"
+cp -f "$ROOT/overlay-headers/nghttp2/nghttp2ver.h" "$HDR_ROOT/nghttp2/nghttp2ver.h"
+find "$HDR_ROOT" -name "nghttp2ver.h.in" -delete
+rm -rf "$HDR_ROOT"
 mkdir -p "$HDR_ROOT/nghttp2"
 cp -f "$UPDIR/lib/includes/nghttp2/"*.h "$HDR_ROOT/nghttp2/"
 if [ -f "$ROOT/overlay-headers/nghttp2/nghttp2ver.h" ]; then cp -f "$ROOT/overlay-headers/nghttp2/nghttp2ver.h" "$HDR_ROOT/nghttp2/nghttp2ver.h"; fi
