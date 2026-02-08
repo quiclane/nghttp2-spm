@@ -926,8 +926,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -939,16 +939,16 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_bbfae
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -v -Wl,-v -MD -MT CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ca0ff
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.4.4.1)
         Target: x86_64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-ef6444/CMakeCCompilerABI-arm64.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-6be418/CMakeCCompilerABI-arm64.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks"
@@ -960,7 +960,7 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-c81ae0/CMakeCCompilerABI-x86_64.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-18ff60/CMakeCCompilerABI-x86_64.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks"
@@ -972,13 +972,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-ef6444/CMakeCCompilerABI-arm64.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-c81ae0/CMakeCCompilerABI-x86_64.o
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -o cmTC_bbfae.app/cmTC_bbfae   && :
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-6be418/CMakeCCompilerABI-arm64.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-18ff60/CMakeCCompilerABI-x86_64.o
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -o cmTC_ca0ff.app/cmTC_ca0ff   && :
         Apple clang version 17.0.0 (clang-1700.4.4.1)
         Target: x86_64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-5cfe9b/CMakeCCompilerABI-arm64.out -headerpad_max_install_names -v CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -arch_multiple -final_output cmTC_bbfae.app/cmTC_bbfae -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-dfa6b2/CMakeCCompilerABI-arm64.out -headerpad_max_install_names -v CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -arch_multiple -final_output cmTC_ca0ff.app/cmTC_ca0ff -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 16:18:08 Oct 17 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -990,7 +990,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-364b02/CMakeCCompilerABI-x86_64.out -headerpad_max_install_names -v CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -arch_multiple -final_output cmTC_bbfae.app/cmTC_bbfae -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-e647a7/CMakeCCompilerABI-x86_64.out -headerpad_max_install_names -v CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -arch_multiple -final_output cmTC_ca0ff.app/cmTC_ca0ff -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 16:18:08 Oct 17 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1002,7 +1002,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output cmTC_bbfae.app/cmTC_bbfae /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-5cfe9b/CMakeCCompilerABI-arm64.out /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-364b02/CMakeCCompilerABI-x86_64.out
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output cmTC_ca0ff.app/cmTC_ca0ff /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-dfa6b2/CMakeCCompilerABI-arm64.out /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-e647a7/CMakeCCompilerABI-x86_64.out
         
       exitCode: 0
   -
@@ -1035,16 +1035,16 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA']
+        ignore line: [Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_bbfae]
-        ignore line: [[1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -v -Wl -v -MD -MT CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ca0ff]
+        ignore line: [[1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -v -Wl -v -MD -MT CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
         ignore line: [Target: x86_64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-ef6444/CMakeCCompilerABI-arm64.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-6be418/CMakeCCompilerABI-arm64.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks"]
@@ -1056,7 +1056,7 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-pof0GA -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-c81ae0/CMakeCCompilerABI-x86_64.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0Nmur9 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-18ff60/CMakeCCompilerABI-x86_64.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks"]
@@ -1068,13 +1068,13 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-ef6444/CMakeCCompilerABI-arm64.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-c81ae0/CMakeCCompilerABI-x86_64.o]
-        ignore line: [[2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -o cmTC_bbfae.app/cmTC_bbfae   && :]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-6be418/CMakeCCompilerABI-arm64.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-18ff60/CMakeCCompilerABI-x86_64.o]
+        ignore line: [[2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -o cmTC_ca0ff.app/cmTC_ca0ff   && :]
         ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
         ignore line: [Target: x86_64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-5cfe9b/CMakeCCompilerABI-arm64.out -headerpad_max_install_names -v CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o -arch_multiple -final_output cmTC_bbfae.app/cmTC_bbfae -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-dfa6b2/CMakeCCompilerABI-arm64.out -headerpad_max_install_names -v CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o -arch_multiple -final_output cmTC_ca0ff.app/cmTC_ca0ff -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1091,13 +1091,13 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [/var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-5cfe9b/CMakeCCompilerABI-arm64.out] ==> ignore
+          arg [/var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCCompilerABI-dfa6b2/CMakeCCompilerABI-arm64.out] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_bbfae.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_ca0ff.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-arch_multiple] ==> ignore
           arg [-final_output] ==> ignore
-          arg [cmTC_bbfae.app/cmTC_bbfae] ==> ignore
+          arg [cmTC_ca0ff.app/cmTC_ca0ff] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a]
         linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
@@ -1520,8 +1520,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1535,10 +1535,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8df3e
-        [1/2] /usr/bin/c++   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -v -Wl,-v -MD -MT CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a262b
+        [1/2] /usr/bin/c++   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.4.4.1)
         Target: x86_64-apple-darwin25.1.0
         Thread model: posix
@@ -1546,7 +1546,7 @@ events:
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-dd5a2a/CMakeCXXCompilerABI-arm64.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-1cd795/CMakeCXXCompilerABI-arm64.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks"
@@ -1559,7 +1559,7 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-d094ff/CMakeCXXCompilerABI-x86_64.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-920f44/CMakeCXXCompilerABI-x86_64.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks"
@@ -1572,13 +1572,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-dd5a2a/CMakeCXXCompilerABI-arm64.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-d094ff/CMakeCXXCompilerABI-x86_64.o
-        [2/2] : && /usr/bin/c++ -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8df3e.app/cmTC_8df3e   && :
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-1cd795/CMakeCXXCompilerABI-arm64.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-920f44/CMakeCXXCompilerABI-x86_64.o
+        [2/2] : && /usr/bin/c++ -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a262b.app/cmTC_a262b   && :
         Apple clang version 17.0.0 (clang-1700.4.4.1)
         Target: x86_64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-a810a0/CMakeCXXCompilerABI-arm64.out -headerpad_max_install_names -v CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -arch_multiple -final_output cmTC_8df3e.app/cmTC_8df3e -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-b3bed7/CMakeCXXCompilerABI-arm64.out -headerpad_max_install_names -v CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -arch_multiple -final_output cmTC_a262b.app/cmTC_a262b -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 16:18:08 Oct 17 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1590,7 +1590,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-21b402/CMakeCXXCompilerABI-x86_64.out -headerpad_max_install_names -v CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -arch_multiple -final_output cmTC_8df3e.app/cmTC_8df3e -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -no_deduplicate -dynamic -arch x86_64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-f3172f/CMakeCXXCompilerABI-x86_64.out -headerpad_max_install_names -v CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -arch_multiple -final_output cmTC_a262b.app/cmTC_a262b -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 16:18:08 Oct 17 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1602,7 +1602,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output cmTC_8df3e.app/cmTC_8df3e /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-a810a0/CMakeCXXCompilerABI-arm64.out /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-21b402/CMakeCXXCompilerABI-x86_64.out
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output cmTC_a262b.app/cmTC_a262b /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-b3bed7/CMakeCXXCompilerABI-arm64.out /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-f3172f/CMakeCXXCompilerABI-x86_64.out
         
       exitCode: 0
   -
@@ -1637,10 +1637,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ']
+        ignore line: [Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8df3e]
-        ignore line: [[1/2] /usr/bin/c++   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -v -Wl -v -MD -MT CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a262b]
+        ignore line: [[1/2] /usr/bin/c++   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -v -Wl -v -MD -MT CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
         ignore line: [Target: x86_64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
@@ -1648,7 +1648,7 @@ events:
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-dd5a2a/CMakeCXXCompilerABI-arm64.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-1cd795/CMakeCXXCompilerABI-arm64.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks"]
@@ -1661,7 +1661,7 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HXDnnQ -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-d094ff/CMakeCXXCompilerABI-x86_64.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-ios26.1.0-simulator -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu core2 -tune-cpu generic -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9UOfJL -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-920f44/CMakeCXXCompilerABI-x86_64.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/Library/Frameworks"]
@@ -1674,13 +1674,13 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-dd5a2a/CMakeCXXCompilerABI-arm64.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-d094ff/CMakeCXXCompilerABI-x86_64.o]
-        ignore line: [[2/2] : && /usr/bin/c++ -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8df3e.app/cmTC_8df3e   && :]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" -create -output CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-1cd795/CMakeCXXCompilerABI-arm64.o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-920f44/CMakeCXXCompilerABI-x86_64.o]
+        ignore line: [[2/2] : && /usr/bin/c++ -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a262b.app/cmTC_a262b   && :]
         ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
         ignore line: [Target: x86_64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-a810a0/CMakeCXXCompilerABI-arm64.out -headerpad_max_install_names -v CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o -arch_multiple -final_output cmTC_8df3e.app/cmTC_8df3e -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios-simulator 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -mllvm -enable-linkonceodr-outlining -o /var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-b3bed7/CMakeCXXCompilerABI-arm64.out -headerpad_max_install_names -v CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o -arch_multiple -final_output cmTC_a262b.app/cmTC_a262b -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1697,13 +1697,13 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [/var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-a810a0/CMakeCXXCompilerABI-arm64.out] ==> ignore
+          arg [/var/folders/kn/rzrxtb6d0ts3lkfjgyjxsjxc0000gn/T/CMakeCXXCompilerABI-b3bed7/CMakeCXXCompilerABI-arm64.out] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_8df3e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_a262b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-arch_multiple] ==> ignore
           arg [-final_output] ==> ignore
-          arg [cmTC_8df3e.app/cmTC_8df3e] ==> ignore
+          arg [cmTC_a262b.app/cmTC_a262b] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.iossim.a]
@@ -6644,8 +6644,8 @@ events:
     checks:
       - "Performing Test CXX_FLAG__std_c_20"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-Gcvblw"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-Gcvblw"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nwdX4b"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nwdX4b"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -6658,11 +6658,11 @@ events:
       variable: "CXX_FLAG__std_c_20"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-Gcvblw'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nwdX4b'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_78bf0
-        [1/2] /usr/bin/c++ -DCXX_FLAG__std_c_20  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_78bf0.dir/src.cxx.o -MF CMakeFiles/cmTC_78bf0.dir/src.cxx.o.d -o CMakeFiles/cmTC_78bf0.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-Gcvblw/src.cxx
-        [2/2] : && /usr/bin/c++ -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_78bf0.dir/src.cxx.o -o cmTC_78bf0.app/cmTC_78bf0   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ad9b8
+        [1/2] /usr/bin/c++ -DCXX_FLAG__std_c_20  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_ad9b8.dir/src.cxx.o -MF CMakeFiles/cmTC_ad9b8.dir/src.cxx.o.d -o CMakeFiles/cmTC_ad9b8.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nwdX4b/src.cxx
+        [2/2] : && /usr/bin/c++ -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ad9b8.dir/src.cxx.o -o cmTC_ad9b8.app/cmTC_ad9b8   && :
         
       exitCode: 0
   -
@@ -6674,8 +6674,8 @@ events:
     checks:
       - "Performing Test HAVE_STD_FUTURE"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-hllyiy"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-hllyiy"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-sqx16M"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-sqx16M"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -6688,11 +6688,11 @@ events:
       variable: "HAVE_STD_FUTURE"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-hllyiy'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-sqx16M'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_d9abd
-        [1/2] /usr/bin/c++ -DHAVE_STD_FUTURE  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_d9abd.dir/src.cxx.o -MF CMakeFiles/cmTC_d9abd.dir/src.cxx.o.d -o CMakeFiles/cmTC_d9abd.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-hllyiy/src.cxx
-        [2/2] : && /usr/bin/c++ -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d9abd.dir/src.cxx.o -o cmTC_d9abd.app/cmTC_d9abd   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_62c46
+        [1/2] /usr/bin/c++ -DHAVE_STD_FUTURE  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_62c46.dir/src.cxx.o -MF CMakeFiles/cmTC_62c46.dir/src.cxx.o.d -o CMakeFiles/cmTC_62c46.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-sqx16M/src.cxx
+        [2/2] : && /usr/bin/c++ -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_62c46.dir/src.cxx.o -o cmTC_62c46.app/cmTC_62c46   && :
         
       exitCode: 0
   -
@@ -6704,8 +6704,8 @@ events:
     checks:
       - "Performing Test HAVE_STD_CHRONO_TIME_ZONE"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-6EjxxM"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-6EjxxM"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nvHzNh"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nvHzNh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -6718,13 +6718,13 @@ events:
       variable: "HAVE_STD_CHRONO_TIME_ZONE"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-6EjxxM'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nvHzNh'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5c95e
-        [1/2] /usr/bin/c++ -DHAVE_STD_CHRONO_TIME_ZONE  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_5c95e.dir/src.cxx.o -MF CMakeFiles/cmTC_5c95e.dir/src.cxx.o.d -o CMakeFiles/cmTC_5c95e.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-6EjxxM/src.cxx
-        FAILED: [code=1] CMakeFiles/cmTC_5c95e.dir/src.cxx.o 
-        /usr/bin/c++ -DHAVE_STD_CHRONO_TIME_ZONE  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_5c95e.dir/src.cxx.o -MF CMakeFiles/cmTC_5c95e.dir/src.cxx.o.d -o CMakeFiles/cmTC_5c95e.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-6EjxxM/src.cxx
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-6EjxxM/src.cxx:3:39: error: no member named 'current_zone' in namespace 'std::chrono'
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_6f237
+        [1/2] /usr/bin/c++ -DHAVE_STD_CHRONO_TIME_ZONE  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_6f237.dir/src.cxx.o -MF CMakeFiles/cmTC_6f237.dir/src.cxx.o.d -o CMakeFiles/cmTC_6f237.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nvHzNh/src.cxx
+        FAILED: [code=1] CMakeFiles/cmTC_6f237.dir/src.cxx.o 
+        /usr/bin/c++ -DHAVE_STD_CHRONO_TIME_ZONE  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_6f237.dir/src.cxx.o -MF CMakeFiles/cmTC_6f237.dir/src.cxx.o.d -o CMakeFiles/cmTC_6f237.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nvHzNh/src.cxx
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nvHzNh/src.cxx:3:39: error: no member named 'current_zone' in namespace 'std::chrono'
             3 |   int main() { auto tz = std::chrono::current_zone(); (void)tz; }
               |                          ~~~~~~~~~~~~~^
         1 error generated.
@@ -6742,8 +6742,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HcraYm"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HcraYm"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-VivbAB"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-VivbAB"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6756,11 +6756,11 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HcraYm'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-VivbAB'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_19621
-        [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_19621.dir/src.c.o -MF CMakeFiles/cmTC_19621.dir/src.c.o.d -o CMakeFiles/cmTC_19621.dir/src.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-HcraYm/src.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_19621.dir/src.c.o -o cmTC_19621.app/cmTC_19621   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_344d0
+        [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_344d0.dir/src.c.o -MF CMakeFiles/cmTC_344d0.dir/src.c.o.d -o CMakeFiles/cmTC_344d0.dir/src.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-VivbAB/src.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_344d0.dir/src.c.o -o cmTC_344d0.app/cmTC_344d0   && :
         
       exitCode: 0
   -
@@ -6771,8 +6771,8 @@ events:
     checks:
       - "Looking for arpa/inet.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ewkVPR"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ewkVPR"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-VL3G20"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-VL3G20"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6785,11 +6785,11 @@ events:
       variable: "HAVE_ARPA_INET_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ewkVPR'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-VL3G20'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_bb5a4
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_bb5a4.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_bb5a4.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_bb5a4.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ewkVPR/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bb5a4.dir/CheckIncludeFile.c.o -o cmTC_bb5a4.app/cmTC_bb5a4   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_c56d4
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_c56d4.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c56d4.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c56d4.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-VL3G20/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c56d4.dir/CheckIncludeFile.c.o -o cmTC_c56d4.app/cmTC_c56d4   && :
         
       exitCode: 0
   -
@@ -6800,8 +6800,8 @@ events:
     checks:
       - "Looking for fcntl.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-MmIIzF"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-MmIIzF"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-WhVCgY"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-WhVCgY"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6814,11 +6814,11 @@ events:
       variable: "HAVE_FCNTL_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-MmIIzF'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-WhVCgY'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_409b9
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_409b9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_409b9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_409b9.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-MmIIzF/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_409b9.dir/CheckIncludeFile.c.o -o cmTC_409b9.app/cmTC_409b9   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_87384
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_87384.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_87384.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_87384.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-WhVCgY/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_87384.dir/CheckIncludeFile.c.o -o cmTC_87384.app/cmTC_87384   && :
         
       exitCode: 0
   -
@@ -6829,8 +6829,8 @@ events:
     checks:
       - "Looking for inttypes.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BG6OKD"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BG6OKD"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FncrrG"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FncrrG"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6843,11 +6843,11 @@ events:
       variable: "HAVE_INTTYPES_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BG6OKD'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FncrrG'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ad5fe
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_ad5fe.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_ad5fe.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_ad5fe.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BG6OKD/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ad5fe.dir/CheckIncludeFile.c.o -o cmTC_ad5fe.app/cmTC_ad5fe   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f78c0
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_f78c0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f78c0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f78c0.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FncrrG/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f78c0.dir/CheckIncludeFile.c.o -o cmTC_f78c0.app/cmTC_f78c0   && :
         
       exitCode: 0
   -
@@ -6858,8 +6858,8 @@ events:
     checks:
       - "Looking for limits.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-701PFY"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-701PFY"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0x8nA0"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0x8nA0"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6872,11 +6872,11 @@ events:
       variable: "HAVE_LIMITS_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-701PFY'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0x8nA0'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_3fb6b
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_3fb6b.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_3fb6b.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_3fb6b.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-701PFY/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3fb6b.dir/CheckIncludeFile.c.o -o cmTC_3fb6b.app/cmTC_3fb6b   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_797db
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_797db.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_797db.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_797db.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0x8nA0/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_797db.dir/CheckIncludeFile.c.o -o cmTC_797db.app/cmTC_797db   && :
         
       exitCode: 0
   -
@@ -6887,8 +6887,8 @@ events:
     checks:
       - "Looking for netdb.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-vmagJt"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-vmagJt"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0e1xJB"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0e1xJB"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6901,11 +6901,11 @@ events:
       variable: "HAVE_NETDB_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-vmagJt'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0e1xJB'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_41819
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_41819.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_41819.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_41819.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-vmagJt/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_41819.dir/CheckIncludeFile.c.o -o cmTC_41819.app/cmTC_41819   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_94e50
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_94e50.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_94e50.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_94e50.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-0e1xJB/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_94e50.dir/CheckIncludeFile.c.o -o cmTC_94e50.app/cmTC_94e50   && :
         
       exitCode: 0
   -
@@ -6916,8 +6916,8 @@ events:
     checks:
       - "Looking for netinet/in.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ZHDW74"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ZHDW74"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-mJPM33"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-mJPM33"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6930,11 +6930,11 @@ events:
       variable: "HAVE_NETINET_IN_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ZHDW74'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-mJPM33'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_bfee9
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_bfee9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_bfee9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_bfee9.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ZHDW74/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_bfee9.dir/CheckIncludeFile.c.o -o cmTC_bfee9.app/cmTC_bfee9   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_cda27
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_cda27.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_cda27.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_cda27.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-mJPM33/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cda27.dir/CheckIncludeFile.c.o -o cmTC_cda27.app/cmTC_cda27   && :
         
       exitCode: 0
   -
@@ -6945,8 +6945,8 @@ events:
     checks:
       - "Looking for netinet/ip.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-Jm52m1"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-Jm52m1"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-JPUvM7"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-JPUvM7"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6959,11 +6959,11 @@ events:
       variable: "HAVE_NETINET_IP_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-Jm52m1'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-JPUvM7'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_39973
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_39973.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_39973.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_39973.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-Jm52m1/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_39973.dir/CheckIncludeFile.c.o -o cmTC_39973.app/cmTC_39973   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ec01e
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_ec01e.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_ec01e.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_ec01e.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-JPUvM7/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ec01e.dir/CheckIncludeFile.c.o -o cmTC_ec01e.app/cmTC_ec01e   && :
         
       exitCode: 0
   -
@@ -6974,8 +6974,8 @@ events:
     checks:
       - "Looking for pwd.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-gdCJU3"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-gdCJU3"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FjlpbL"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FjlpbL"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6988,11 +6988,11 @@ events:
       variable: "HAVE_PWD_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-gdCJU3'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FjlpbL'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_0b763
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_0b763.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_0b763.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_0b763.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-gdCJU3/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0b763.dir/CheckIncludeFile.c.o -o cmTC_0b763.app/cmTC_0b763   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_21e44
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_21e44.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_21e44.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_21e44.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FjlpbL/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_21e44.dir/CheckIncludeFile.c.o -o cmTC_21e44.app/cmTC_21e44   && :
         
       exitCode: 0
   -
@@ -7003,8 +7003,8 @@ events:
     checks:
       - "Looking for sys/socket.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FRaTuK"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FRaTuK"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-4mQMko"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-4mQMko"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7017,11 +7017,11 @@ events:
       variable: "HAVE_SYS_SOCKET_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FRaTuK'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-4mQMko'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_2dff0
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_2dff0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_2dff0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_2dff0.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-FRaTuK/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2dff0.dir/CheckIncludeFile.c.o -o cmTC_2dff0.app/cmTC_2dff0   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_98a35
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_98a35.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_98a35.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_98a35.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-4mQMko/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_98a35.dir/CheckIncludeFile.c.o -o cmTC_98a35.app/cmTC_98a35   && :
         
       exitCode: 0
   -
@@ -7032,8 +7032,8 @@ events:
     checks:
       - "Looking for sys/time.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-adkSrX"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-adkSrX"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GQORLE"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GQORLE"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7046,11 +7046,11 @@ events:
       variable: "HAVE_SYS_TIME_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-adkSrX'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GQORLE'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_2b51c
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_2b51c.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_2b51c.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_2b51c.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-adkSrX/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2b51c.dir/CheckIncludeFile.c.o -o cmTC_2b51c.app/cmTC_2b51c   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_98bb9
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_98bb9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_98bb9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_98bb9.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GQORLE/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_98bb9.dir/CheckIncludeFile.c.o -o cmTC_98bb9.app/cmTC_98bb9   && :
         
       exitCode: 0
   -
@@ -7061,8 +7061,8 @@ events:
     checks:
       - "Looking for syslog.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-g39ELm"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-g39ELm"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-KI8v3V"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-KI8v3V"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7075,11 +7075,11 @@ events:
       variable: "HAVE_SYSLOG_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-g39ELm'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-KI8v3V'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_92eb7
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_92eb7.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_92eb7.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_92eb7.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-g39ELm/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_92eb7.dir/CheckIncludeFile.c.o -o cmTC_92eb7.app/cmTC_92eb7   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_607cd
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_607cd.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_607cd.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_607cd.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-KI8v3V/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_607cd.dir/CheckIncludeFile.c.o -o cmTC_607cd.app/cmTC_607cd   && :
         
       exitCode: 0
   -
@@ -7090,8 +7090,8 @@ events:
     checks:
       - "Looking for unistd.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-MB2nOg"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-MB2nOg"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-bVwfy0"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-bVwfy0"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7104,11 +7104,11 @@ events:
       variable: "HAVE_UNISTD_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-MB2nOg'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-bVwfy0'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_37046
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_37046.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_37046.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_37046.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-MB2nOg/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_37046.dir/CheckIncludeFile.c.o -o cmTC_37046.app/cmTC_37046   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5ca91
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_5ca91.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_5ca91.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_5ca91.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-bVwfy0/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5ca91.dir/CheckIncludeFile.c.o -o cmTC_5ca91.app/cmTC_5ca91   && :
         
       exitCode: 0
   -
@@ -7119,8 +7119,8 @@ events:
     checks:
       - "Looking for windows.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-IRbyRX"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-IRbyRX"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-mlVISK"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-mlVISK"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7133,13 +7133,13 @@ events:
       variable: "HAVE_WINDOWS_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-IRbyRX'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-mlVISK'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_1c7d3
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_1c7d3.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_1c7d3.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_1c7d3.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-IRbyRX/CheckIncludeFile.c
-        FAILED: [code=1] CMakeFiles/cmTC_1c7d3.dir/CheckIncludeFile.c.o 
-        /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_1c7d3.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_1c7d3.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_1c7d3.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-IRbyRX/CheckIncludeFile.c
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-IRbyRX/CheckIncludeFile.c:1:10: fatal error: 'windows.h' file not found
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a9667
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_a9667.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a9667.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a9667.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-mlVISK/CheckIncludeFile.c
+        FAILED: [code=1] CMakeFiles/cmTC_a9667.dir/CheckIncludeFile.c.o 
+        /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_a9667.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a9667.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a9667.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-mlVISK/CheckIncludeFile.c
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-mlVISK/CheckIncludeFile.c:1:10: fatal error: 'windows.h' file not found
             1 | #include <windows.h>
               |          ^~~~~~~~~~~
         1 error generated.
@@ -7155,8 +7155,8 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ckEdVL"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ckEdVL"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-h99aPQ"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-h99aPQ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7169,11 +7169,11 @@ events:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ckEdVL'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-h99aPQ'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_7092a
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_7092a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_7092a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_7092a.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ckEdVL/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7092a.dir/CheckIncludeFile.c.o -o cmTC_7092a.app/cmTC_7092a   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a1bee
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_a1bee.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a1bee.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a1bee.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-h99aPQ/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a1bee.dir/CheckIncludeFile.c.o -o cmTC_a1bee.app/cmTC_a1bee   && :
         
       exitCode: 0
   -
@@ -7185,8 +7185,8 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-DZc4xp"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-DZc4xp"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GH1GpR"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GH1GpR"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7199,11 +7199,11 @@ events:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-DZc4xp'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GH1GpR'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5c9e0
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_5c9e0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_5c9e0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_5c9e0.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-DZc4xp/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5c9e0.dir/CheckIncludeFile.c.o -o cmTC_5c9e0.app/cmTC_5c9e0   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_454e5
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_454e5.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_454e5.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_454e5.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GH1GpR/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_454e5.dir/CheckIncludeFile.c.o -o cmTC_454e5.app/cmTC_454e5   && :
         
       exitCode: 0
   -
@@ -7215,8 +7215,8 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-11U3lR"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-11U3lR"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BGiUr8"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BGiUr8"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7229,11 +7229,11 @@ events:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-11U3lR'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BGiUr8'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f8c10
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_f8c10.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f8c10.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f8c10.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-11U3lR/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f8c10.dir/CheckIncludeFile.c.o -o cmTC_f8c10.app/cmTC_f8c10   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_9ba51
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_9ba51.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_9ba51.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_9ba51.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BGiUr8/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9ba51.dir/CheckIncludeFile.c.o -o cmTC_9ba51.app/cmTC_9ba51   && :
         
       exitCode: 0
   -
@@ -7245,8 +7245,8 @@ events:
     checks:
       - "Check size of ssize_t"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-k1LJ1V"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-k1LJ1V"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-iKMVrb"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-iKMVrb"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7259,11 +7259,11 @@ events:
       variable: "HAVE_SIZEOF_SSIZE_T"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-k1LJ1V'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-iKMVrb'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_d03e8
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_d03e8.dir/SIZEOF_SSIZE_T.c.o -MF CMakeFiles/cmTC_d03e8.dir/SIZEOF_SSIZE_T.c.o.d -o CMakeFiles/cmTC_d03e8.dir/SIZEOF_SSIZE_T.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-k1LJ1V/SIZEOF_SSIZE_T.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d03e8.dir/SIZEOF_SSIZE_T.c.o -o cmTC_d03e8.app/cmTC_d03e8   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a6401
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_a6401.dir/SIZEOF_SSIZE_T.c.o -MF CMakeFiles/cmTC_a6401.dir/SIZEOF_SSIZE_T.c.o.d -o CMakeFiles/cmTC_a6401.dir/SIZEOF_SSIZE_T.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-iKMVrb/SIZEOF_SSIZE_T.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a6401.dir/SIZEOF_SSIZE_T.c.o -o cmTC_a6401.app/cmTC_a6401   && :
         
       exitCode: 0
   -
@@ -7276,8 +7276,8 @@ events:
     checks:
       - "Performing Test HAVE_STRUCT_TM_TM_GMTOFF"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-WuZWDt"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-WuZWDt"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-H71Ls4"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-H71Ls4"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7290,11 +7290,11 @@ events:
       variable: "HAVE_STRUCT_TM_TM_GMTOFF"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-WuZWDt'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-H71Ls4'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_9ff75
-        [1/2] /usr/bin/cc -DHAVE_STRUCT_TM_TM_GMTOFF  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_9ff75.dir/src.c.o -MF CMakeFiles/cmTC_9ff75.dir/src.c.o.d -o CMakeFiles/cmTC_9ff75.dir/src.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-WuZWDt/src.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9ff75.dir/src.c.o -o cmTC_9ff75.app/cmTC_9ff75   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8caec
+        [1/2] /usr/bin/cc -DHAVE_STRUCT_TM_TM_GMTOFF  -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_8caec.dir/src.c.o -MF CMakeFiles/cmTC_8caec.dir/src.c.o.d -o CMakeFiles/cmTC_8caec.dir/src.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-H71Ls4/src.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8caec.dir/src.c.o -o cmTC_8caec.app/cmTC_8caec   && :
         
       exitCode: 0
   -
@@ -7305,8 +7305,8 @@ events:
     checks:
       - "Looking for _Exit"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-SPpc03"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-SPpc03"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9Vg6Px"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9Vg6Px"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7319,33 +7319,33 @@ events:
       variable: "HAVE__EXIT"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-SPpc03'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9Vg6Px'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ef439
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_Exit -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_ef439.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ef439.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ef439.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-SPpc03/CheckFunctionExists.c
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-SPpc03/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function '_Exit' [-Wincompatible-library-redeclaration]
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_21d3c
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_Exit -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_21d3c.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_21d3c.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_21d3c.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9Vg6Px/CheckFunctionExists.c
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9Vg6Px/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function '_Exit' [-Wincompatible-library-redeclaration]
             7 |   CHECK_FUNCTION_EXISTS(void);
               |   ^
         <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
             1 | #define CHECK_FUNCTION_EXISTS _Exit
               |                               ^
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-SPpc03/CheckFunctionExists.c:7:3: note: '_Exit' is a builtin with type 'void (int) __attribute__((noreturn))'
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9Vg6Px/CheckFunctionExists.c:7:3: note: '_Exit' is a builtin with type 'void (int) __attribute__((noreturn))'
         <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
             1 | #define CHECK_FUNCTION_EXISTS _Exit
               |                               ^
         1 warning generated.
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-SPpc03/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function '_Exit' [-Wincompatible-library-redeclaration]
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9Vg6Px/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function '_Exit' [-Wincompatible-library-redeclaration]
             7 |   CHECK_FUNCTION_EXISTS(void);
               |   ^
         <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
             1 | #define CHECK_FUNCTION_EXISTS _Exit
               |                               ^
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-SPpc03/CheckFunctionExists.c:7:3: note: '_Exit' is a builtin with type 'void (int) __attribute__((noreturn))'
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-9Vg6Px/CheckFunctionExists.c:7:3: note: '_Exit' is a builtin with type 'void (int) __attribute__((noreturn))'
         <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
             1 | #define CHECK_FUNCTION_EXISTS _Exit
               |                               ^
         1 warning generated.
-        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=_Exit -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ef439.dir/CheckFunctionExists.c.o -o cmTC_ef439.app/cmTC_ef439   && :
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=_Exit -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_21d3c.dir/CheckFunctionExists.c.o -o cmTC_21d3c.app/cmTC_21d3c   && :
         
       exitCode: 0
   -
@@ -7356,8 +7356,8 @@ events:
     checks:
       - "Looking for accept4"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-wlwSZb"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-wlwSZb"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ygk7l5"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ygk7l5"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7370,13 +7370,13 @@ events:
       variable: "HAVE_ACCEPT4"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-wlwSZb'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ygk7l5'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_3b5b5
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_3b5b5.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_3b5b5.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_3b5b5.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-wlwSZb/CheckFunctionExists.c
-        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3b5b5.dir/CheckFunctionExists.c.o -o cmTC_3b5b5.app/cmTC_3b5b5   && :
-        FAILED: [code=1] cmTC_3b5b5.app/cmTC_3b5b5 
-        : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3b5b5.dir/CheckFunctionExists.c.o -o cmTC_3b5b5.app/cmTC_3b5b5   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_04a51
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_04a51.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_04a51.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_04a51.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ygk7l5/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_04a51.dir/CheckFunctionExists.c.o -o cmTC_04a51.app/cmTC_04a51   && :
+        FAILED: [code=1] cmTC_04a51.app/cmTC_04a51 
+        : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_04a51.dir/CheckFunctionExists.c.o -o cmTC_04a51.app/cmTC_04a51   && :
         Undefined symbols for architecture arm64:
           "_accept4", referenced from:
               _main in CheckFunctionExists.c.o
@@ -7393,8 +7393,8 @@ events:
     checks:
       - "Looking for clock_gettime"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-tE9wJA"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-tE9wJA"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-YjWJtu"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-YjWJtu"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7407,11 +7407,11 @@ events:
       variable: "HAVE_CLOCK_GETTIME"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-tE9wJA'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-YjWJtu'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_c0897
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_c0897.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_c0897.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_c0897.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-tE9wJA/CheckFunctionExists.c
-        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c0897.dir/CheckFunctionExists.c.o -o cmTC_c0897.app/cmTC_c0897   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_27e75
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_27e75.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_27e75.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_27e75.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-YjWJtu/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_27e75.dir/CheckFunctionExists.c.o -o cmTC_27e75.app/cmTC_27e75   && :
         
       exitCode: 0
   -
@@ -7422,8 +7422,8 @@ events:
     checks:
       - "Looking for mkostemp"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ovdn7u"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ovdn7u"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GJpQKO"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GJpQKO"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7436,11 +7436,11 @@ events:
       variable: "HAVE_MKOSTEMP"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ovdn7u'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GJpQKO'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_07e86
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkostemp -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_07e86.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_07e86.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_07e86.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-ovdn7u/CheckFunctionExists.c
-        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=mkostemp -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_07e86.dir/CheckFunctionExists.c.o -o cmTC_07e86.app/cmTC_07e86   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_cee0c
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkostemp -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_cee0c.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_cee0c.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_cee0c.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-GJpQKO/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=mkostemp -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cee0c.dir/CheckFunctionExists.c.o -o cmTC_cee0c.app/cmTC_cee0c   && :
         
       exitCode: 0
   -
@@ -7451,8 +7451,8 @@ events:
     checks:
       - "Looking for pipe2"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-QbHjfZ"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-QbHjfZ"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-qq9bvT"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-qq9bvT"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7465,13 +7465,13 @@ events:
       variable: "HAVE_PIPE2"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-QbHjfZ'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-qq9bvT'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_51081
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_51081.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_51081.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_51081.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-QbHjfZ/CheckFunctionExists.c
-        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_51081.dir/CheckFunctionExists.c.o -o cmTC_51081.app/cmTC_51081   && :
-        FAILED: [code=1] cmTC_51081.app/cmTC_51081 
-        : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_51081.dir/CheckFunctionExists.c.o -o cmTC_51081.app/cmTC_51081   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f5580
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_f5580.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_f5580.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_f5580.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-qq9bvT/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f5580.dir/CheckFunctionExists.c.o -o cmTC_f5580.app/cmTC_f5580   && :
+        FAILED: [code=1] cmTC_f5580.app/cmTC_f5580 
+        : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f5580.dir/CheckFunctionExists.c.o -o cmTC_f5580.app/cmTC_f5580   && :
         Undefined symbols for architecture arm64:
           "_pipe2", referenced from:
               _main in CheckFunctionExists.c.o
@@ -7489,8 +7489,8 @@ events:
     checks:
       - "Looking for GetTickCount64"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-B8uvQG"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-B8uvQG"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BiN2kM"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BiN2kM"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7503,13 +7503,13 @@ events:
       variable: "HAVE_GETTICKCOUNT64"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-B8uvQG'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BiN2kM'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_c1ea4
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_c1ea4.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c1ea4.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c1ea4.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-B8uvQG/CheckSymbolExists.c
-        FAILED: [code=1] CMakeFiles/cmTC_c1ea4.dir/CheckSymbolExists.c.o 
-        /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_c1ea4.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c1ea4.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c1ea4.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-B8uvQG/CheckSymbolExists.c
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-B8uvQG/CheckSymbolExists.c:2:10: fatal error: 'windows.h' file not found
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ad74f
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_ad74f.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_ad74f.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_ad74f.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BiN2kM/CheckSymbolExists.c
+        FAILED: [code=1] CMakeFiles/cmTC_ad74f.dir/CheckSymbolExists.c.o 
+        /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_ad74f.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_ad74f.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_ad74f.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BiN2kM/CheckSymbolExists.c
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-BiN2kM/CheckSymbolExists.c:2:10: fatal error: 'windows.h' file not found
             2 | #include <windows.h>
               |          ^~~~~~~~~~~
         1 error generated.
@@ -7525,8 +7525,8 @@ events:
     checks:
       - "Looking for initgroups"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nmvLcG"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nmvLcG"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-8ae98b"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-8ae98b"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7539,13 +7539,13 @@ events:
       variable: "HAVE_DECL_INITGROUPS"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nmvLcG'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-8ae98b'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_fc318
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_fc318.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_fc318.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_fc318.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nmvLcG/CheckSymbolExists.c
-        FAILED: [code=1] CMakeFiles/cmTC_fc318.dir/CheckSymbolExists.c.o 
-        /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_fc318.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_fc318.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_fc318.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nmvLcG/CheckSymbolExists.c
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-nmvLcG/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'initgroups'
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_b4a1d
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_b4a1d.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_b4a1d.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_b4a1d.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-8ae98b/CheckSymbolExists.c
+        FAILED: [code=1] CMakeFiles/cmTC_b4a1d.dir/CheckSymbolExists.c.o 
+        /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_b4a1d.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_b4a1d.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_b4a1d.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-8ae98b/CheckSymbolExists.c
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-8ae98b/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'initgroups'
             8 |   return ((int*)(&initgroups))[argc];
               |                   ^
         1 error generated.
@@ -7561,8 +7561,8 @@ events:
     checks:
       - "Looking for initgroups"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-IXvnvS"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-IXvnvS"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-uzkl3y"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-uzkl3y"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7575,11 +7575,11 @@ events:
       variable: "HAVE_DECL_INITGROUPS2"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-IXvnvS'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-uzkl3y'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f70b3
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_f70b3.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f70b3.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f70b3.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-IXvnvS/CheckSymbolExists.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f70b3.dir/CheckSymbolExists.c.o -o cmTC_f70b3.app/cmTC_f70b3   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_efed0
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_efed0.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_efed0.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_efed0.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-uzkl3y/CheckSymbolExists.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_efed0.dir/CheckSymbolExists.c.o -o cmTC_efed0.app/cmTC_efed0   && :
         
       exitCode: 0
   -
@@ -7591,8 +7591,8 @@ events:
     checks:
       - "Looking for CLOCK_MONOTONIC"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-D4XCWV"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-D4XCWV"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-F8ey2O"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-F8ey2O"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7605,11 +7605,11 @@ events:
       variable: "HAVE_DECL_CLOCK_MONOTONIC"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-D4XCWV'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-F8ey2O'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_12620
-        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_12620.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_12620.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_12620.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-D4XCWV/CheckSymbolExists.c
-        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_12620.dir/CheckSymbolExists.c.o -o cmTC_12620.app/cmTC_12620   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_2c45c
+        [1/2] /usr/bin/cc   -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_2c45c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_2c45c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_2c45c.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_sim/CMakeFiles/CMakeScratch/TryCompile-F8ey2O/CheckSymbolExists.c
+        [2/2] : && /usr/bin/cc -arch arm64 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2c45c.dir/CheckSymbolExists.c.o -o cmTC_2c45c.app/cmTC_2c45c   && :
         
       exitCode: 0
 ...

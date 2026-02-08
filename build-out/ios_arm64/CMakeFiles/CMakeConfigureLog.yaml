@@ -926,8 +926,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ljCdiu"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ljCdiu"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ObLoR7"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ObLoR7"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -939,16 +939,16 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ljCdiu'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ObLoR7'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_43d8f
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -v -Wl,-v -MD -MT CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_0194a
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -v -Wl,-v -MD -MT CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.4.4.1)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ljCdiu -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ljCdiu -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ObLoR7 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ObLoR7 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks"
@@ -960,12 +960,12 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -o cmTC_43d8f.app/cmTC_43d8f   && :
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -o cmTC_0194a.app/cmTC_0194a   && :
         Apple clang version 17.0.0 (clang-1700.4.4.1)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_43d8f.app/cmTC_43d8f -headerpad_max_install_names -v CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_0194a.app/cmTC_0194a -headerpad_max_install_names -v CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 16:18:08 Oct 17 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1009,16 +1009,16 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ljCdiu']
+        ignore line: [Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ObLoR7']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_43d8f]
-        ignore line: [[1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -v -Wl -v -MD -MT CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_0194a]
+        ignore line: [[1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -v -Wl -v -MD -MT CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ljCdiu -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ljCdiu -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ObLoR7 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-ObLoR7 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks"]
@@ -1030,12 +1030,12 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -o cmTC_43d8f.app/cmTC_43d8f   && :]
+        ignore line: [[2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -o cmTC_0194a.app/cmTC_0194a   && :]
         ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_43d8f.app/cmTC_43d8f -headerpad_max_install_names -v CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_0194a.app/cmTC_0194a -headerpad_max_install_names -v CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1052,10 +1052,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_43d8f.app/cmTC_43d8f] ==> ignore
+          arg [cmTC_0194a.app/cmTC_0194a] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_43d8f.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_0194a.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a]
         linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
@@ -1478,8 +1478,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-OQff68"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-OQff68"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eHO1Jt"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eHO1Jt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1493,17 +1493,17 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-OQff68'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eHO1Jt'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_c9abc
-        [1/2] /usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_b1d3b
+        [1/2] /usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.4.4.1)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-OQff68 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-OQff68 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eHO1Jt -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eHO1Jt -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks"
@@ -1516,12 +1516,12 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        [2/2] : && /usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c9abc.app/cmTC_c9abc   && :
+        [2/2] : && /usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b1d3b.app/cmTC_b1d3b   && :
         Apple clang version 17.0.0 (clang-1700.4.4.1)
         Target: arm64-apple-darwin25.1.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c9abc.app/cmTC_c9abc -headerpad_max_install_names -v CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b1d3b.app/cmTC_b1d3b -headerpad_max_install_names -v CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 16:18:08 Oct 17 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1567,17 +1567,17 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-OQff68']
+        ignore line: [Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eHO1Jt']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_c9abc]
-        ignore line: [[1/2] /usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -v -Wl -v -MD -MT CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_b1d3b]
+        ignore line: [[1/2] /usr/bin/c++   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -v -Wl -v -MD -MT CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-OQff68 -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-OQff68 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios26.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.1 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-a7 -target-feature +zcm -target-feature +zcz -target-feature +v8a -target-feature +aes -target-feature +fp-armv8 -target-feature +neon -target-feature +perfmon -target-feature +sha2 -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eHO1Jt -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eHO1Jt -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.4.4.1) default target arm64-apple-darwin25.1.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/Library/Frameworks"]
@@ -1590,12 +1590,12 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c9abc.app/cmTC_c9abc   && :]
+        ignore line: [[2/2] : && /usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b1d3b.app/cmTC_b1d3b   && :]
         ignore line: [Apple clang version 17.0.0 (clang-1700.4.4.1)]
         ignore line: [Target: arm64-apple-darwin25.1.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_c9abc.app/cmTC_c9abc -headerpad_max_install_names -v CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version ios 26.1.0 26.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_b1d3b.app/cmTC_b1d3b -headerpad_max_install_names -v CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1612,10 +1612,10 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_c9abc.app/cmTC_c9abc] ==> ignore
+          arg [cmTC_b1d3b.app/cmTC_b1d3b] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_c9abc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_b1d3b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.ios.a]
@@ -6556,8 +6556,8 @@ events:
     checks:
       - "Performing Test CXX_FLAG__std_c_20"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vne2yo"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vne2yo"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9T6U7G"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9T6U7G"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -6570,11 +6570,11 @@ events:
       variable: "CXX_FLAG__std_c_20"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vne2yo'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9T6U7G'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_511f2
-        [1/2] /usr/bin/c++ -DCXX_FLAG__std_c_20  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_511f2.dir/src.cxx.o -MF CMakeFiles/cmTC_511f2.dir/src.cxx.o.d -o CMakeFiles/cmTC_511f2.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vne2yo/src.cxx
-        [2/2] : && /usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_511f2.dir/src.cxx.o -o cmTC_511f2.app/cmTC_511f2   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_6c13c
+        [1/2] /usr/bin/c++ -DCXX_FLAG__std_c_20  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_6c13c.dir/src.cxx.o -MF CMakeFiles/cmTC_6c13c.dir/src.cxx.o.d -o CMakeFiles/cmTC_6c13c.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9T6U7G/src.cxx
+        [2/2] : && /usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6c13c.dir/src.cxx.o -o cmTC_6c13c.app/cmTC_6c13c   && :
         
       exitCode: 0
   -
@@ -6586,8 +6586,8 @@ events:
     checks:
       - "Performing Test HAVE_STD_FUTURE"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-M1JTA8"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-M1JTA8"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-AbHEmy"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-AbHEmy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -6600,11 +6600,11 @@ events:
       variable: "HAVE_STD_FUTURE"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-M1JTA8'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-AbHEmy'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_37b7a
-        [1/2] /usr/bin/c++ -DHAVE_STD_FUTURE  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_37b7a.dir/src.cxx.o -MF CMakeFiles/cmTC_37b7a.dir/src.cxx.o.d -o CMakeFiles/cmTC_37b7a.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-M1JTA8/src.cxx
-        [2/2] : && /usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_37b7a.dir/src.cxx.o -o cmTC_37b7a.app/cmTC_37b7a   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_fbb05
+        [1/2] /usr/bin/c++ -DHAVE_STD_FUTURE  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_fbb05.dir/src.cxx.o -MF CMakeFiles/cmTC_fbb05.dir/src.cxx.o.d -o CMakeFiles/cmTC_fbb05.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-AbHEmy/src.cxx
+        [2/2] : && /usr/bin/c++ -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fbb05.dir/src.cxx.o -o cmTC_fbb05.app/cmTC_fbb05   && :
         
       exitCode: 0
   -
@@ -6616,8 +6616,8 @@ events:
     checks:
       - "Performing Test HAVE_STD_CHRONO_TIME_ZONE"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-EKIxyr"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-EKIxyr"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-DxWe5v"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-DxWe5v"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -6630,13 +6630,13 @@ events:
       variable: "HAVE_STD_CHRONO_TIME_ZONE"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-EKIxyr'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-DxWe5v'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_5465b
-        [1/2] /usr/bin/c++ -DHAVE_STD_CHRONO_TIME_ZONE  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_5465b.dir/src.cxx.o -MF CMakeFiles/cmTC_5465b.dir/src.cxx.o.d -o CMakeFiles/cmTC_5465b.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-EKIxyr/src.cxx
-        FAILED: [code=1] CMakeFiles/cmTC_5465b.dir/src.cxx.o 
-        /usr/bin/c++ -DHAVE_STD_CHRONO_TIME_ZONE  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_5465b.dir/src.cxx.o -MF CMakeFiles/cmTC_5465b.dir/src.cxx.o.d -o CMakeFiles/cmTC_5465b.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-EKIxyr/src.cxx
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-EKIxyr/src.cxx:3:39: error: no member named 'current_zone' in namespace 'std::chrono'
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_86bcd
+        [1/2] /usr/bin/c++ -DHAVE_STD_CHRONO_TIME_ZONE  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_86bcd.dir/src.cxx.o -MF CMakeFiles/cmTC_86bcd.dir/src.cxx.o.d -o CMakeFiles/cmTC_86bcd.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-DxWe5v/src.cxx
+        FAILED: [code=1] CMakeFiles/cmTC_86bcd.dir/src.cxx.o 
+        /usr/bin/c++ -DHAVE_STD_CHRONO_TIME_ZONE  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE   -std=c++20 -MD -MT CMakeFiles/cmTC_86bcd.dir/src.cxx.o -MF CMakeFiles/cmTC_86bcd.dir/src.cxx.o.d -o CMakeFiles/cmTC_86bcd.dir/src.cxx.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-DxWe5v/src.cxx
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-DxWe5v/src.cxx:3:39: error: no member named 'current_zone' in namespace 'std::chrono'
             3 |   int main() { auto tz = std::chrono::current_zone(); (void)tz; }
               |                          ~~~~~~~~~~~~~^
         1 error generated.
@@ -6654,8 +6654,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-hBdBxs"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-hBdBxs"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-iPk5ee"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-iPk5ee"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6668,11 +6668,11 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-hBdBxs'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-iPk5ee'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_b4899
-        [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_b4899.dir/src.c.o -MF CMakeFiles/cmTC_b4899.dir/src.c.o.d -o CMakeFiles/cmTC_b4899.dir/src.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-hBdBxs/src.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b4899.dir/src.c.o -o cmTC_b4899.app/cmTC_b4899   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_d147f
+        [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_d147f.dir/src.c.o -MF CMakeFiles/cmTC_d147f.dir/src.c.o.d -o CMakeFiles/cmTC_d147f.dir/src.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-iPk5ee/src.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d147f.dir/src.c.o -o cmTC_d147f.app/cmTC_d147f   && :
         
       exitCode: 0
   -
@@ -6683,8 +6683,8 @@ events:
     checks:
       - "Looking for arpa/inet.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-5RVF2m"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-5RVF2m"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-e4AJYg"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-e4AJYg"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6697,11 +6697,11 @@ events:
       variable: "HAVE_ARPA_INET_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-5RVF2m'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-e4AJYg'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_4e2aa
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_4e2aa.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_4e2aa.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_4e2aa.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-5RVF2m/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4e2aa.dir/CheckIncludeFile.c.o -o cmTC_4e2aa.app/cmTC_4e2aa   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_604c8
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_604c8.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_604c8.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_604c8.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-e4AJYg/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_604c8.dir/CheckIncludeFile.c.o -o cmTC_604c8.app/cmTC_604c8   && :
         
       exitCode: 0
   -
@@ -6712,8 +6712,8 @@ events:
     checks:
       - "Looking for fcntl.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-dQh59Z"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-dQh59Z"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-lMo3kB"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-lMo3kB"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6726,11 +6726,11 @@ events:
       variable: "HAVE_FCNTL_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-dQh59Z'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-lMo3kB'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_9724a
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_9724a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_9724a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_9724a.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-dQh59Z/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9724a.dir/CheckIncludeFile.c.o -o cmTC_9724a.app/cmTC_9724a   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_3fe4a
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_3fe4a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_3fe4a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_3fe4a.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-lMo3kB/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3fe4a.dir/CheckIncludeFile.c.o -o cmTC_3fe4a.app/cmTC_3fe4a   && :
         
       exitCode: 0
   -
@@ -6741,8 +6741,8 @@ events:
     checks:
       - "Looking for inttypes.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-nBO4kn"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-nBO4kn"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-LAaaCS"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-LAaaCS"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6755,11 +6755,11 @@ events:
       variable: "HAVE_INTTYPES_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-nBO4kn'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-LAaaCS'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_3c40a
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_3c40a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_3c40a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_3c40a.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-nBO4kn/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3c40a.dir/CheckIncludeFile.c.o -o cmTC_3c40a.app/cmTC_3c40a   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_1b287
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_1b287.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_1b287.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_1b287.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-LAaaCS/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1b287.dir/CheckIncludeFile.c.o -o cmTC_1b287.app/cmTC_1b287   && :
         
       exitCode: 0
   -
@@ -6770,8 +6770,8 @@ events:
     checks:
       - "Looking for limits.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-kbaqh4"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-kbaqh4"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-yAPZKu"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-yAPZKu"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6784,11 +6784,11 @@ events:
       variable: "HAVE_LIMITS_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-kbaqh4'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-yAPZKu'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_41321
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_41321.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_41321.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_41321.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-kbaqh4/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_41321.dir/CheckIncludeFile.c.o -o cmTC_41321.app/cmTC_41321   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_19023
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_19023.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_19023.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_19023.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-yAPZKu/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_19023.dir/CheckIncludeFile.c.o -o cmTC_19023.app/cmTC_19023   && :
         
       exitCode: 0
   -
@@ -6799,8 +6799,8 @@ events:
     checks:
       - "Looking for netdb.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-koUxS0"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-koUxS0"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-u4ho4f"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-u4ho4f"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6813,11 +6813,11 @@ events:
       variable: "HAVE_NETDB_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-koUxS0'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-u4ho4f'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_46d13
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_46d13.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_46d13.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_46d13.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-koUxS0/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_46d13.dir/CheckIncludeFile.c.o -o cmTC_46d13.app/cmTC_46d13   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_939ae
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_939ae.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_939ae.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_939ae.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-u4ho4f/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_939ae.dir/CheckIncludeFile.c.o -o cmTC_939ae.app/cmTC_939ae   && :
         
       exitCode: 0
   -
@@ -6828,8 +6828,8 @@ events:
     checks:
       - "Looking for netinet/in.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vkkQFi"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vkkQFi"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-sM7a6k"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-sM7a6k"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6842,11 +6842,11 @@ events:
       variable: "HAVE_NETINET_IN_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vkkQFi'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-sM7a6k'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_40ff1
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_40ff1.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_40ff1.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_40ff1.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vkkQFi/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_40ff1.dir/CheckIncludeFile.c.o -o cmTC_40ff1.app/cmTC_40ff1   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f37bd
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_f37bd.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f37bd.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f37bd.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-sM7a6k/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f37bd.dir/CheckIncludeFile.c.o -o cmTC_f37bd.app/cmTC_f37bd   && :
         
       exitCode: 0
   -
@@ -6857,8 +6857,8 @@ events:
     checks:
       - "Looking for netinet/ip.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-llbhwQ"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-llbhwQ"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-Ogofdr"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-Ogofdr"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6871,11 +6871,11 @@ events:
       variable: "HAVE_NETINET_IP_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-llbhwQ'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-Ogofdr'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_23ba4
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_23ba4.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_23ba4.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_23ba4.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-llbhwQ/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_23ba4.dir/CheckIncludeFile.c.o -o cmTC_23ba4.app/cmTC_23ba4   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_80d31
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_80d31.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_80d31.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_80d31.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-Ogofdr/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_80d31.dir/CheckIncludeFile.c.o -o cmTC_80d31.app/cmTC_80d31   && :
         
       exitCode: 0
   -
@@ -6886,8 +6886,8 @@ events:
     checks:
       - "Looking for pwd.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-D8hBW2"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-D8hBW2"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-2fEZ4v"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-2fEZ4v"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6900,11 +6900,11 @@ events:
       variable: "HAVE_PWD_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-D8hBW2'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-2fEZ4v'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_2eaea
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_2eaea.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_2eaea.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_2eaea.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-D8hBW2/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2eaea.dir/CheckIncludeFile.c.o -o cmTC_2eaea.app/cmTC_2eaea   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_da26f
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_da26f.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_da26f.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_da26f.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-2fEZ4v/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_da26f.dir/CheckIncludeFile.c.o -o cmTC_da26f.app/cmTC_da26f   && :
         
       exitCode: 0
   -
@@ -6915,8 +6915,8 @@ events:
     checks:
       - "Looking for sys/socket.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vaDV43"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vaDV43"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PtWX9G"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PtWX9G"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6929,11 +6929,11 @@ events:
       variable: "HAVE_SYS_SOCKET_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vaDV43'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PtWX9G'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_c74eb
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_c74eb.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c74eb.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c74eb.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vaDV43/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c74eb.dir/CheckIncludeFile.c.o -o cmTC_c74eb.app/cmTC_c74eb   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f609a
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_f609a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f609a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f609a.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PtWX9G/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f609a.dir/CheckIncludeFile.c.o -o cmTC_f609a.app/cmTC_f609a   && :
         
       exitCode: 0
   -
@@ -6944,8 +6944,8 @@ events:
     checks:
       - "Looking for sys/time.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-kTxbS7"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-kTxbS7"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-T6DuBY"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-T6DuBY"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6958,11 +6958,11 @@ events:
       variable: "HAVE_SYS_TIME_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-kTxbS7'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-T6DuBY'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_42c16
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_42c16.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_42c16.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_42c16.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-kTxbS7/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_42c16.dir/CheckIncludeFile.c.o -o cmTC_42c16.app/cmTC_42c16   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_3099c
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_3099c.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_3099c.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_3099c.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-T6DuBY/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3099c.dir/CheckIncludeFile.c.o -o cmTC_3099c.app/cmTC_3099c   && :
         
       exitCode: 0
   -
@@ -6973,8 +6973,8 @@ events:
     checks:
       - "Looking for syslog.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PjO9N3"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PjO9N3"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9MFLTr"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9MFLTr"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -6987,11 +6987,11 @@ events:
       variable: "HAVE_SYSLOG_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PjO9N3'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9MFLTr'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_56c0a
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_56c0a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_56c0a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_56c0a.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PjO9N3/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_56c0a.dir/CheckIncludeFile.c.o -o cmTC_56c0a.app/cmTC_56c0a   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_34d8d
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_34d8d.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_34d8d.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_34d8d.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9MFLTr/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_34d8d.dir/CheckIncludeFile.c.o -o cmTC_34d8d.app/cmTC_34d8d   && :
         
       exitCode: 0
   -
@@ -7002,8 +7002,8 @@ events:
     checks:
       - "Looking for unistd.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-fccKm2"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-fccKm2"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-SapLJP"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-SapLJP"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7016,11 +7016,11 @@ events:
       variable: "HAVE_UNISTD_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-fccKm2'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-SapLJP'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f7bdb
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_f7bdb.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f7bdb.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f7bdb.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-fccKm2/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f7bdb.dir/CheckIncludeFile.c.o -o cmTC_f7bdb.app/cmTC_f7bdb   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_e6009
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_e6009.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_e6009.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_e6009.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-SapLJP/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e6009.dir/CheckIncludeFile.c.o -o cmTC_e6009.app/cmTC_e6009   && :
         
       exitCode: 0
   -
@@ -7031,8 +7031,8 @@ events:
     checks:
       - "Looking for windows.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-jvt4cV"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-jvt4cV"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-BDWtgv"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-BDWtgv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7045,13 +7045,13 @@ events:
       variable: "HAVE_WINDOWS_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-jvt4cV'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-BDWtgv'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_0138a
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_0138a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_0138a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_0138a.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-jvt4cV/CheckIncludeFile.c
-        FAILED: [code=1] CMakeFiles/cmTC_0138a.dir/CheckIncludeFile.c.o 
-        /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_0138a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_0138a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_0138a.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-jvt4cV/CheckIncludeFile.c
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-jvt4cV/CheckIncludeFile.c:1:10: fatal error: 'windows.h' file not found
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f286a
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_f286a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f286a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f286a.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-BDWtgv/CheckIncludeFile.c
+        FAILED: [code=1] CMakeFiles/cmTC_f286a.dir/CheckIncludeFile.c.o 
+        /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_f286a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_f286a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_f286a.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-BDWtgv/CheckIncludeFile.c
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-BDWtgv/CheckIncludeFile.c:1:10: fatal error: 'windows.h' file not found
             1 | #include <windows.h>
               |          ^~~~~~~~~~~
         1 error generated.
@@ -7067,8 +7067,8 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-xTyB6i"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-xTyB6i"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-r2ppVu"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-r2ppVu"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7081,11 +7081,11 @@ events:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-xTyB6i'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-r2ppVu'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_d4df0
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_d4df0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_d4df0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_d4df0.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-xTyB6i/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d4df0.dir/CheckIncludeFile.c.o -o cmTC_d4df0.app/cmTC_d4df0   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_16272
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_16272.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_16272.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_16272.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-r2ppVu/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_16272.dir/CheckIncludeFile.c.o -o cmTC_16272.app/cmTC_16272   && :
         
       exitCode: 0
   -
@@ -7097,8 +7097,8 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-6KFzIi"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-6KFzIi"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-8WI9pl"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-8WI9pl"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7111,11 +7111,11 @@ events:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-6KFzIi'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-8WI9pl'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8c094
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_8c094.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_8c094.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_8c094.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-6KFzIi/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8c094.dir/CheckIncludeFile.c.o -o cmTC_8c094.app/cmTC_8c094   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_42ad1
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_42ad1.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_42ad1.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_42ad1.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-8WI9pl/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_42ad1.dir/CheckIncludeFile.c.o -o cmTC_42ad1.app/cmTC_42ad1   && :
         
       exitCode: 0
   -
@@ -7127,8 +7127,8 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PNaTfj"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PNaTfj"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-lYxSJp"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-lYxSJp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7141,11 +7141,11 @@ events:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PNaTfj'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-lYxSJp'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_507a7
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_507a7.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_507a7.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_507a7.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-PNaTfj/CheckIncludeFile.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_507a7.dir/CheckIncludeFile.c.o -o cmTC_507a7.app/cmTC_507a7   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_93c09
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_93c09.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_93c09.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_93c09.dir/CheckIncludeFile.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-lYxSJp/CheckIncludeFile.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_93c09.dir/CheckIncludeFile.c.o -o cmTC_93c09.app/cmTC_93c09   && :
         
       exitCode: 0
   -
@@ -7157,8 +7157,8 @@ events:
     checks:
       - "Check size of ssize_t"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-K2whJ5"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-K2whJ5"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-oazB1v"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-oazB1v"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7171,11 +7171,11 @@ events:
       variable: "HAVE_SIZEOF_SSIZE_T"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-K2whJ5'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-oazB1v'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_d00bb
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_d00bb.dir/SIZEOF_SSIZE_T.c.o -MF CMakeFiles/cmTC_d00bb.dir/SIZEOF_SSIZE_T.c.o.d -o CMakeFiles/cmTC_d00bb.dir/SIZEOF_SSIZE_T.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-K2whJ5/SIZEOF_SSIZE_T.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d00bb.dir/SIZEOF_SSIZE_T.c.o -o cmTC_d00bb.app/cmTC_d00bb   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_4ddd5
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_4ddd5.dir/SIZEOF_SSIZE_T.c.o -MF CMakeFiles/cmTC_4ddd5.dir/SIZEOF_SSIZE_T.c.o.d -o CMakeFiles/cmTC_4ddd5.dir/SIZEOF_SSIZE_T.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-oazB1v/SIZEOF_SSIZE_T.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4ddd5.dir/SIZEOF_SSIZE_T.c.o -o cmTC_4ddd5.app/cmTC_4ddd5   && :
         
       exitCode: 0
   -
@@ -7188,8 +7188,8 @@ events:
     checks:
       - "Performing Test HAVE_STRUCT_TM_TM_GMTOFF"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-klS8V1"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-klS8V1"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-qOcRKi"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-qOcRKi"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7202,11 +7202,11 @@ events:
       variable: "HAVE_STRUCT_TM_TM_GMTOFF"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-klS8V1'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-qOcRKi'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_636b8
-        [1/2] /usr/bin/cc -DHAVE_STRUCT_TM_TM_GMTOFF  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_636b8.dir/src.c.o -MF CMakeFiles/cmTC_636b8.dir/src.c.o.d -o CMakeFiles/cmTC_636b8.dir/src.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-klS8V1/src.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_636b8.dir/src.c.o -o cmTC_636b8.app/cmTC_636b8   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_38d11
+        [1/2] /usr/bin/cc -DHAVE_STRUCT_TM_TM_GMTOFF  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_38d11.dir/src.c.o -MF CMakeFiles/cmTC_38d11.dir/src.c.o.d -o CMakeFiles/cmTC_38d11.dir/src.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-qOcRKi/src.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_38d11.dir/src.c.o -o cmTC_38d11.app/cmTC_38d11   && :
         
       exitCode: 0
   -
@@ -7217,8 +7217,8 @@ events:
     checks:
       - "Looking for _Exit"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-3ngQy0"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-3ngQy0"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-zUtQNj"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-zUtQNj"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7231,22 +7231,22 @@ events:
       variable: "HAVE__EXIT"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-3ngQy0'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-zUtQNj'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_73d27
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_Exit -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_73d27.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_73d27.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_73d27.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-3ngQy0/CheckFunctionExists.c
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-3ngQy0/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function '_Exit' [-Wincompatible-library-redeclaration]
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a6749
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=_Exit -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_a6749.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a6749.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a6749.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-zUtQNj/CheckFunctionExists.c
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-zUtQNj/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function '_Exit' [-Wincompatible-library-redeclaration]
             7 |   CHECK_FUNCTION_EXISTS(void);
               |   ^
         <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
             1 | #define CHECK_FUNCTION_EXISTS _Exit
               |                               ^
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-3ngQy0/CheckFunctionExists.c:7:3: note: '_Exit' is a builtin with type 'void (int) __attribute__((noreturn))'
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-zUtQNj/CheckFunctionExists.c:7:3: note: '_Exit' is a builtin with type 'void (int) __attribute__((noreturn))'
         <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
             1 | #define CHECK_FUNCTION_EXISTS _Exit
               |                               ^
         1 warning generated.
-        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=_Exit -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_73d27.dir/CheckFunctionExists.c.o -o cmTC_73d27.app/cmTC_73d27   && :
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=_Exit -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a6749.dir/CheckFunctionExists.c.o -o cmTC_a6749.app/cmTC_a6749   && :
         
       exitCode: 0
   -
@@ -7257,8 +7257,8 @@ events:
     checks:
       - "Looking for accept4"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-oTgjA2"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-oTgjA2"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-1On16r"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-1On16r"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7271,13 +7271,13 @@ events:
       variable: "HAVE_ACCEPT4"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-oTgjA2'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-1On16r'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_35494
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_35494.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_35494.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_35494.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-oTgjA2/CheckFunctionExists.c
-        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_35494.dir/CheckFunctionExists.c.o -o cmTC_35494.app/cmTC_35494   && :
-        FAILED: [code=1] cmTC_35494.app/cmTC_35494 
-        : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_35494.dir/CheckFunctionExists.c.o -o cmTC_35494.app/cmTC_35494   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_14a0d
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_14a0d.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_14a0d.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_14a0d.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-1On16r/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_14a0d.dir/CheckFunctionExists.c.o -o cmTC_14a0d.app/cmTC_14a0d   && :
+        FAILED: [code=1] cmTC_14a0d.app/cmTC_14a0d 
+        : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=accept4 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_14a0d.dir/CheckFunctionExists.c.o -o cmTC_14a0d.app/cmTC_14a0d   && :
         Undefined symbols for architecture arm64:
           "_accept4", referenced from:
               _main in CheckFunctionExists.c.o
@@ -7294,8 +7294,8 @@ events:
     checks:
       - "Looking for clock_gettime"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-3QqbVL"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-3QqbVL"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eSuPO7"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eSuPO7"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7308,11 +7308,11 @@ events:
       variable: "HAVE_CLOCK_GETTIME"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-3QqbVL'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eSuPO7'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_d7487
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_d7487.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d7487.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d7487.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-3QqbVL/CheckFunctionExists.c
-        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d7487.dir/CheckFunctionExists.c.o -o cmTC_d7487.app/cmTC_d7487   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_98533
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_98533.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_98533.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_98533.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-eSuPO7/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_98533.dir/CheckFunctionExists.c.o -o cmTC_98533.app/cmTC_98533   && :
         
       exitCode: 0
   -
@@ -7323,8 +7323,8 @@ events:
     checks:
       - "Looking for mkostemp"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-cTSmZX"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-cTSmZX"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-viUBVS"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-viUBVS"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7337,11 +7337,11 @@ events:
       variable: "HAVE_MKOSTEMP"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-cTSmZX'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-viUBVS'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_b3a8c
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkostemp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_b3a8c.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_b3a8c.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_b3a8c.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-cTSmZX/CheckFunctionExists.c
-        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=mkostemp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b3a8c.dir/CheckFunctionExists.c.o -o cmTC_b3a8c.app/cmTC_b3a8c   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_7c219
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=mkostemp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_7c219.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_7c219.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_7c219.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-viUBVS/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=mkostemp -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7c219.dir/CheckFunctionExists.c.o -o cmTC_7c219.app/cmTC_7c219   && :
         
       exitCode: 0
   -
@@ -7352,8 +7352,8 @@ events:
     checks:
       - "Looking for pipe2"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-pjq76y"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-pjq76y"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-MbGMba"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-MbGMba"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7366,13 +7366,13 @@ events:
       variable: "HAVE_PIPE2"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-pjq76y'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-MbGMba'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8941a
-        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_8941a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_8941a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_8941a.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-pjq76y/CheckFunctionExists.c
-        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8941a.dir/CheckFunctionExists.c.o -o cmTC_8941a.app/cmTC_8941a   && :
-        FAILED: [code=1] cmTC_8941a.app/cmTC_8941a 
-        : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8941a.dir/CheckFunctionExists.c.o -o cmTC_8941a.app/cmTC_8941a   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_89158
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_89158.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_89158.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_89158.dir/CheckFunctionExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-MbGMba/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_89158.dir/CheckFunctionExists.c.o -o cmTC_89158.app/cmTC_89158   && :
+        FAILED: [code=1] cmTC_89158.app/cmTC_89158 
+        : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pipe2 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_89158.dir/CheckFunctionExists.c.o -o cmTC_89158.app/cmTC_89158   && :
         Undefined symbols for architecture arm64:
           "_pipe2", referenced from:
               _main in CheckFunctionExists.c.o
@@ -7390,8 +7390,8 @@ events:
     checks:
       - "Looking for GetTickCount64"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-LxQpmh"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-LxQpmh"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9FyyRN"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9FyyRN"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7404,13 +7404,13 @@ events:
       variable: "HAVE_GETTICKCOUNT64"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-LxQpmh'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9FyyRN'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_089fb
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_089fb.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_089fb.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_089fb.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-LxQpmh/CheckSymbolExists.c
-        FAILED: [code=1] CMakeFiles/cmTC_089fb.dir/CheckSymbolExists.c.o 
-        /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_089fb.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_089fb.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_089fb.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-LxQpmh/CheckSymbolExists.c
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-LxQpmh/CheckSymbolExists.c:2:10: fatal error: 'windows.h' file not found
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_56dc0
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_56dc0.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_56dc0.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_56dc0.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9FyyRN/CheckSymbolExists.c
+        FAILED: [code=1] CMakeFiles/cmTC_56dc0.dir/CheckSymbolExists.c.o 
+        /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_56dc0.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_56dc0.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_56dc0.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9FyyRN/CheckSymbolExists.c
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-9FyyRN/CheckSymbolExists.c:2:10: fatal error: 'windows.h' file not found
             2 | #include <windows.h>
               |          ^~~~~~~~~~~
         1 error generated.
@@ -7426,8 +7426,8 @@ events:
     checks:
       - "Looking for initgroups"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vQQuvs"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vQQuvs"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-MqI1dx"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-MqI1dx"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7440,13 +7440,13 @@ events:
       variable: "HAVE_DECL_INITGROUPS"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vQQuvs'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-MqI1dx'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f7899
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_f7899.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f7899.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f7899.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vQQuvs/CheckSymbolExists.c
-        FAILED: [code=1] CMakeFiles/cmTC_f7899.dir/CheckSymbolExists.c.o 
-        /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_f7899.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f7899.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f7899.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vQQuvs/CheckSymbolExists.c
-        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-vQQuvs/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'initgroups'
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_cbc07
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_cbc07.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_cbc07.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_cbc07.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-MqI1dx/CheckSymbolExists.c
+        FAILED: [code=1] CMakeFiles/cmTC_cbc07.dir/CheckSymbolExists.c.o 
+        /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_cbc07.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_cbc07.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_cbc07.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-MqI1dx/CheckSymbolExists.c
+        /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-MqI1dx/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'initgroups'
             8 |   return ((int*)(&initgroups))[argc];
               |                   ^
         1 error generated.
@@ -7462,8 +7462,8 @@ events:
     checks:
       - "Looking for initgroups"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-GiDwF1"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-GiDwF1"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-SPsjTv"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-SPsjTv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7476,11 +7476,11 @@ events:
       variable: "HAVE_DECL_INITGROUPS2"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-GiDwF1'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-SPsjTv'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_44a55
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_44a55.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_44a55.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_44a55.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-GiDwF1/CheckSymbolExists.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_44a55.dir/CheckSymbolExists.c.o -o cmTC_44a55.app/cmTC_44a55   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_1d222
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_1d222.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_1d222.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1d222.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-SPsjTv/CheckSymbolExists.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1d222.dir/CheckSymbolExists.c.o -o cmTC_1d222.app/cmTC_1d222   && :
         
       exitCode: 0
   -
@@ -7492,8 +7492,8 @@ events:
     checks:
       - "Looking for CLOCK_MONOTONIC"
     directories:
-      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-AD5247"
-      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-AD5247"
+      source: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-Ztj1oh"
+      binary: "/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-Ztj1oh"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -7506,11 +7506,11 @@ events:
       variable: "HAVE_DECL_CLOCK_MONOTONIC"
       cached: true
       stdout: |
-        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-AD5247'
+        Change Dir: '/Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-Ztj1oh'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_4d668
-        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_4d668.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_4d668.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_4d668.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-AD5247/CheckSymbolExists.c
-        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4d668.dir/CheckSymbolExists.c.o -o cmTC_4d668.app/cmTC_4d668   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_7ce35
+        [1/2] /usr/bin/cc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -fPIE -MD -MT CMakeFiles/cmTC_7ce35.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_7ce35.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_7ce35.dir/CheckSymbolExists.c.o -c /Users/admin/Desktop/nghttp2-spm/build-out/ios_arm64/CMakeFiles/CMakeScratch/TryCompile-Ztj1oh/CheckSymbolExists.c
+        [2/2] : && /usr/bin/cc -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.1.sdk -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7ce35.dir/CheckSymbolExists.c.o -o cmTC_7ce35.app/cmTC_7ce35   && :
         
       exitCode: 0
 ...
