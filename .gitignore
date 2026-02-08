@@ -1,0 +1,9 @@
+.DS_Store
+.build/
+build-out/
+_upstream/
+ios-arm64/
+ios-arm64_x86_64-simulator/
+nghttp2-spm/
+Info.plist
+libnghttp2.a

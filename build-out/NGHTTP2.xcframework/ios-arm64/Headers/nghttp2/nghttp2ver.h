@@ -1,5 +1,0 @@
-#ifndef NGHTTP2VER_H
-#define NGHTTP2VER_H
-#define NGHTTP2_VERSION "1.0.0"
-#define NGHTTP2_VERSION_NUM 0x010000
-#endif
